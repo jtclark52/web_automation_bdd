@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+from pytest_bdd import scenario, given, when, then
 
 driver = webdriver.Chrome("C:\Python Projects\Project 1\chromedriver.exe")
 
